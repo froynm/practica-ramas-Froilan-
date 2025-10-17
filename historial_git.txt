@@ -129,3 +129,10 @@
   129  git branch -d feature/validacion
   130  git push origin desarrollo
   131  history > historial_git.txt
+  132  git push origin main
+  133  git push origin desarrollo
+  134  git add .
+  135  git commit -m "integraciondel archivo historial_git.txt"
+  136  git push origin main
+  137  git push origin desarrollo
+  138  history | grep git > historial_git.txt
